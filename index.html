@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Clone</title>
+    <link rel="shortcut icon" href="images/favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-nav">
+                <div class="header-image-container">
+                    <div class="nav-menu">
+                        <div class="nav-menu-container">
+                            <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="10" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: block; width: 100%; height: 100%;"><g><path d="M4 21V10.08l8-6.96 8 6.96V21h-6v-6h-4v6H4z"></path></g></svg>
+                            <p>Home</p>
+                        </div>
+                        <div class="nav-menu-container">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="10" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: block; width: 100%; height: 100%;"><path d="M10 14.65v-5.3L15 12l-5 2.65zm7.77-4.33-1.2-.5L18 9.06c1.84-.96 2.53-3.23 1.56-5.06s-3.24-2.53-5.07-1.56L6 6.94c-1.29.68-2.07 2.04-2 3.49.07 1.42.93 2.67 2.22 3.25.03.01 1.2.5 1.2.5L6 14.93c-1.83.97-2.53 3.24-1.56 5.07.97 1.83 3.24 2.53 5.07 1.56l8.5-4.5c1.29-.68 2.06-2.04 1.99-3.49-.07-1.42-.94-2.68-2.23-3.25zm-.23 5.86-8.5 4.5c-1.34.71-3.01.2-3.72-1.14-.71-1.34-.2-3.01 1.14-3.72l2.04-1.08v-1.21l-.69-.28-1.11-.46c-.99-.41-1.65-1.35-1.7-2.41-.05-1.06.52-2.06 1.46-2.56l8.5-4.5c1.34-.71 3.01-.2 3.72 1.14.71 1.34.2 3.01-1.14 3.72L15.5 9.26v1.21l1.8.74c.99.41 1.65 1.35 1.7 2.41.05 1.06-.52 2.06-1.46 2.56z"></path></svg>
+                            <p>Shorts</p>
+                        </div>
+                        <div class="nav-menu-container">
+                            <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="10" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: block; width: 100%; height: 100%;"><path d="M10 18v-6l5 3-5 3zm7-15H7v1h10V3zm3 3H4v1h16V6zm2 3H2v12h20V9zM3 10h18v10H3V10z"></path></svg>
+                            <p>Subscriptions</p>
+                        </div>
+                        <div class="nav-menu-container">
+                            <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="10" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: block; width: 100%; height: 100%;"><path d="m11 7 6 3.5-6 3.5V7zm7 13H4V6H3v15h15v-1zm3-2H6V3h15v15zM7 17h13V4H7v13z"></path></svg>
+                            <p>You</p>
+                        </div>
+                    </div>
+                    <div class="container-list">
+                        <i class="bi bi-list"></i>
+                        <img src="images/youtubelogo.jpg" alt="youtube-icon">
+                        <div class="ph-sup">PH</div>
+                    </div>
+                </div>
+
+                <div class="header-searchbar">
+                    <div class="searchbar-container">
+                        <div class="container-click">
+                            <div class="searcbar-hover">Search</div>
+                            <i class="bi bi-search"></i>
+                        </div>
+                        <input type="text" name="" id="" placeholder="Search">
+                    </div>
+                    <div class="container-click-mic">
+                        <i class="bi bi-mic-fill"></i>
+                        <div class="mic-hover">Search with your voice</div>
+                    </div>
+                </div>
+                
+                <div class="header-notif-end">
+                    <div class="container-click-camera">
+                        <i class="bi bi-camera-video"></i>
+                        <div class="camera-hover">Create</div>
+                    </div>
+                    
+                    <div class="notif-bell">
+                        <div class="notif-number">4</div>
+                        <i class="bi bi-bell"></i>
+                        <div class="bell-hover">Notifications</div>
+                    </div>
+                    <img src="images/header-account.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="header-filter-container">
+                <div class="nav-menu-black">
+                    <p>All</p>
+                </div>
+                <div class="nav-menu">
+                    <p>NBA</p>
+                </div>
+                <div class="nav-menu">
+                    <p>Gaming</p>
+                </div>
+                <div class="nav-menu">
+                    <p>Music</p>
+                </div>
+                <div class="nav-menu">
+                    <p>All</p>
+                </div>
+                <div class="nav-menu">
+                    <p>Live</p>
+                </div>
+                <div class="nav-menu">
+                    <p>CSS</p>
+                </div>
+                <div class="nav-menu">
+                    <p>Variety shows</p>
+                </div>
+                <div class="nav-menu">
+                    <p>Esports</p>
+                </div>
+                <div class="nav-menu">
+                    <p>Melodramas</p>
+                </div>
+                <div class="nav-menu">
+                    <p>DJ mix</p>
+                </div>
+                <div class="nav-menu">
+                    <p>C#</p>
+                </div>
+                <div class="nav-menu">
+                    <p>Philippine Music</p>
+                </div>
+                <div class="arrow-right">
+                    <i class="bi bi-chevron-right"></i>
+                    <div class="arrow-right-hover">Next</div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="section1">
+                <div class="section-container">
+                   <img src="images/image1.png" alt="">
+                   <div class="container-label">
+                        <img src="images/icon1.jpg" alt="">
+                        <div class="container-label-text">
+                            <p>THUNDER at TIMBERWOLVES | NBA IN-SEASON TOURNAMENT 🏆 |...  </p>
+                            <div class="container-subheading">
+                                <p class="subheading">NBA</p>
+                                <i class="bi bi-check-circle-fill"></i>
+                            </div>
+                            <p class="views">236K views • 10 hours ago</p>
+                        </div>
+                   </div>
+                </div>
+                <div class="section-container">
+                    <img src="images/image2.png" alt="">
+                    <div class="container-label">
+                        <img src="images/icon2.jpg" alt="">
+                        <div class="container-label-text">
+                            <p>Kapamilya Online Live | November 29, 2023</p>
+                            <div class="container-subheading">
+                                <p class="subheading">ABS-CBN Entertainment</p>
+                                <i class="bi bi-check-circle-fill"></i>
+                            </div>
+                            <p class="views">236K views • Streamed 20 hours ago</p>
+                        </div>
+                   </div>
+                 </div>
+                 <div class="section-container">
+                    <img src="images/image3.png" alt="">
+                    <div class="container-label">
+                        <img src="images/icon3.jpg" alt="">
+                        <div class="container-label-text">
+                            <p>World Championship Finals - Day 3 | Clash of Clans</p>
+                            <div class="container-subheading">
+                                <p class="subheading">Clash of Clans</p>
+                                <i class="bi bi-check-circle-fill"></i>
+                            </div>
+                            <p class="views">836K views • Streamed 20 hours ago</p>
+                        </div>
+                   </div>
+                 </div>
+                 <div class="section-container">
+                    <img src="images/image4.png" alt="">
+                    <div class="container-label">
+                        <img src="images/icon4.jpg" alt="">
+                        <div class="container-label-text">
+                            <p>JavaScript Full Course (2023) - Beginner to Pro - Part 2 Lesson 13</p>
+                            <div class="container-subheading">
+                                <p class="subheading">SuperSimpleDev</p>
+                            </div>
+                            <p class="views">2.7M views • 7 months ago</p>
+                        </div>
+                   </div>
+                 </div>
+                 <div class="section-container">
+                    <img src="images/image5.png" alt="">
+                    <div class="container-label">
+                        <img src="images/icon5.jpg" alt="">
+                        <div class="container-label-text">
+                            <p>M5 World Championship | M5 GALA</p>
+                            <div class="container-subheading">
+                                <p class="subheading">MLBB eSports</p>
+                                <i class="bi bi-check-circle-fill"></i>
+                            </div>
+                            <p class="views">436K views • Streamed 20 hours ago</p>
+                        </div>
+                   </div>
+                 </div>
+                 <div class="section-container">
+                    <img src="images/image6.png" alt="">
+                    <div class="container-label">
+                        <img src="images/icon1.jpg" alt="">
+                        <div class="container-label-text">
+                            <p>CLIPPERS at KINGS | FULL GAME HIGHLIGHTS | November 29, 2023</p>
+                            <div class="container-subheading">
+                                <p class="subheading">NBA</p>
+                                <i class="bi bi-check-circle-fill"></i>
+                            </div>
+                            <p class="views">118K views • 2 hours ago</p>
+                        </div>
+                   </div>
+                 </div>
+            </section>
+
+            <div class="heading-title-label">
+                <div class="title-heading">
+                    <p>Breaking News</p>
+                </div>
+                <div class="label-not-interested">
+                    <i class="bi bi-x-lg"></i>
+                    <div class="exit-hover">Not Interested</div>
+                </div>
+            </div>
+
+            <section class="section2">
+                <div class="section-container">
+                   <img src="images/image7.png" alt="">
+                   <div class="container-label">
+                        <img src="images/icon6.jpg" alt="">
+                        <div class="container-label-text">
+                            <p>Ex-PH Senate President: Cooperation with ICC probe an executive action | ANC</p>
+                            <div class="container-subheading">
+                                <p class="subheading">ANC 27/7</p>
+                                <i class="bi bi-check-circle-fill"></i>
+                            </div>
+                            <p class="views">36K views • 5 hours ago</p>
+                        </div>
+                   </div>
+                </div>
+                <div class="section-container">
+                    <img src="images/image8.png" alt="">
+                    <div class="container-label">
+                        <img src="images/icon6.jpg" alt="">
+                        <div class="container-label-text">
+                            <p>Drilon on ICC push allegedly to hit VP Duterte: Nothing political in upholding...</p>
+                            <div class="container-subheading">
+                                <p class="subheading">ANC 27/7</p>
+                                <i class="bi bi-check-circle-fill"></i>
+                            </div>
+                            <p class="views">31K views • 7 hours ago</p>
+                        </div>
+                   </div>
+                 </div>
+                 <div class="section-container">
+                    <img src="images/image9.png" alt="">
+                    <div class="container-label">
+                        <img src="images/icon7.jpg" alt="">
+                        <div class="container-label-text">
+                            <p>World Championship Finals - Day 3 | Clash of Clans</p>
+                            <div class="container-subheading">
+                                <p class="subheading">ABS-CBN News</p>
+                                <i class="bi bi-check-circle-fill"></i>
+                            </div>
+                            <p class="views">197K views • Streamed 20 hours ago</p>
+                        </div>
+                   </div>
+                 </div>
+            </section>
+
+            <div class="show-more-button">
+                <button>Show more<i class="bi bi-chevron-down"></i></button>
+             </div>
+
+             <section class="section2">
+                <div class="section-container">
+                   <img src="images/image10.jpg" alt="">
+                   <div class="container-label">
+                        <img src="images/icon8.jpg" alt="">
+                        <div class="container-label-text">
+                            <p>Flutter Bloc Tutorial For Beginners | BloC Architecture/Pattern & State...</p>
+                            <div class="container-subheading">
+                                <p class="subheading">Rivaan Ranawat</p>
+                                <i class="bi bi-check-circle-fill"></i>
+                            </div>
+                            <p class="views">2.2K views • 19 hours ago</p>
+                        </div>
+                   </div>
+                </div>
+                <div class="section-container">
+                    <img src="images/image11.jpg" alt="">
+                    <div class="container-label">
+                        <img src="images/icon9.jpg" alt="">
+                        <div class="container-label-text">
+                            <p>DJ NiiDO - THROWBACK HOUSE EDM POP VIDEO MIX: Avicii David Guetta...</p>
+                            <div class="container-subheading">
+                                <p class="subheading">DJ NiiDO</p>
+                                <i class="bi bi-check-circle-fill"></i>
+                            </div>
+                            <p class="views">950K views • 1 year ago</p>
+                        </div>
+                   </div>
+                 </div>
+                 <div class="section-container">
+                    <img src="images/image12.jpg" alt="">
+                    <div class="container-label">
+                        <img src="images/icon10.jpg" alt="">
+                        <div class="container-label-text">
+                            <p>NextJS Tutorial - All 12 Concepts You Need to Know</p>
+                            <div class="container-subheading">
+                                <p class="subheading">ByteGrad</p>
+                                <i class="bi bi-check-circle-fill"></i>
+                            </div>
+                            <p class="views">42K views • 2 weeks ago</p>
+                        </div>
+                   </div>
+                 </div>
+            </section>
+
+            <div class="heading-title-label">
+                <div class="title-heading">
+                    <img src="images/youtubeshorts.png" alt="" class="youtube-shorts">
+                    <p>Shorts</p>
+                </div>
+                <div class="label-not-interested">
+                    <i class="bi bi-x-lg"></i>
+                    <div class="exit-hover">Not Interested</div>
+                </div>
+            </div>
+
+            <section class="section3">
+                <div class="section-container">
+                   <img src="images/image13.jpg" alt="">
+                   <div class="container-label">
+                        <div class="container-label-text">
+                            <p>이다현 Lee Da Hyeon Ting Ting Tang Tang Dance...</p>
+                            <p class="views">3.6M views</p>
+                        </div>
+                   </div>
+                </div>
+                <div class="section-container">
+                    <img src="images/image14.jpg" alt="">
+                    <div class="container-label">
+                        <div class="container-label-text">
+                            <p>Camera Man Beats Olympic Runners in a 10...</p>
+                            <p class="views">8.3M views</p>
+                        </div>
+                   </div>
+                 </div>
+                 <div class="section-container">
+                    <img src="images/image15.jpg" alt="">
+                    <div class="container-label">
+                        <div class="container-label-text">
+                            <p>Don’t learn web dev this way</p>
+                            <p class="views">1M views</p>
+                        </div>
+                   </div>
+                 </div>
+                 <div class="section-container">
+                    <img src="images/image16.jpg" alt="">
+                    <div class="container-label">
+                        <div class="container-label-text">
+                            <p>andrea brillantes vs. jillian ward</p>
+                            <p class="views">88KK views • 2 weeks ago</p>
+                        </div>
+                   </div>
+                 </div>
+                 <div class="section-container">
+                    <img src="images/image17.jpg" alt="">
+                    <div class="container-label">
+                        <div class="container-label-text">
+                            <p>Milwaukee Bucks...</p>
+                            <p class="views">420K views</p>
+                        </div>
+                   </div>
+                 </div>
+            </section>
+
+            <div class="show-more-button">
+                <button>Show more<i class="bi bi-chevron-down"></i></button>
+             </div>
+
+            <section class="section1 bottom">
+                <div class="section-container">
+                   <img src="images/image1.png" alt="">
+                   <div class="container-label">
+                        <img src="images/icon1.jpg" alt="">
+                        <div class="container-label-text">
+                            <p>THUNDER at TIMBERWOLVES | NBA IN-SEASON TOURNAMENT 🏆 |...  </p>
+                            <div class="container-subheading">
+                                <p class="subheading">NBA</p>
+                                <i class="bi bi-check-circle-fill"></i>
+                            </div>
+                            <p class="views">236K views • 10 hours ago</p>
+                        </div>
+                   </div>
+                </div>
+                <div class="section-container">
+                    <img src="images/image2.png" alt="">
+                    <div class="container-label">
+                        <img src="images/icon2.jpg" alt="">
+                        <div class="container-label-text">
+                            <p>Kapamilya Online Live | November 29, 2023</p>
+                            <div class="container-subheading">
+                                <p class="subheading">ABS-CBN Entertainment</p>
+                                <i class="bi bi-check-circle-fill"></i>
+                            </div>
+                            <p class="views">236K views • Streamed 20 hours ago</p>
+                        </div>
+                   </div>
+                 </div>
+                 <div class="section-container">
+                    <img src="images/image3.png" alt="">
+                    <div class="container-label">
+                        <img src="images/icon3.jpg" alt="">
+                        <div class="container-label-text">
+                            <p>World Championship Finals - Day 3 | Clash of Clans</p>
+                            <div class="container-subheading">
+                                <p class="subheading">Clash of Clans</p>
+                                <i class="bi bi-check-circle-fill"></i>
+                            </div>
+                            <p class="views">836K views • Streamed 20 hours ago</p>
+                        </div>
+                   </div>
+                 </div>
+                 <div class="section-container">
+                    <img src="images/image4.png" alt="">
+                    <div class="container-label">
+                        <img src="images/icon4.jpg" alt="">
+                        <div class="container-label-text">
+                            <p>JavaScript Full Course (2023) - Beginner to Pro - Part 2 Lesson 13</p>
+                            <div class="container-subheading">
+                                <p class="subheading">SuperSimpleDev</p>
+                            </div>
+                            <p class="views">2.7M views • 7 months ago</p>
+                        </div>
+                   </div>
+                 </div>
+                 <div class="section-container">
+                    <img src="images/image5.png" alt="">
+                    <div class="container-label">
+                        <img src="images/icon5.jpg" alt="">
+                        <div class="container-label-text">
+                            <p>M5 World Championship | M5 GALA</p>
+                            <div class="container-subheading">
+                                <p class="subheading">MLBB eSports</p>
+                                <i class="bi bi-check-circle-fill"></i>
+                            </div>
+                            <p class="views">436K views • Streamed 20 hours ago</p>
+                        </div>
+                   </div>
+                 </div>
+                 <div class="section-container">
+                    <img src="images/image6.png" alt="">
+                    <div class="container-label">
+                        <img src="images/icon1.jpg" alt="">
+                        <div class="container-label-text">
+                            <p>CLIPPERS at KINGS | FULL GAME HIGHLIGHTS | November 29, 2023</p>
+                            <div class="container-subheading">
+                                <p class="subheading">NBA</p>
+                                <i class="bi bi-check-circle-fill"></i>
+                            </div>
+                            <p class="views">118K views • 2 hours ago</p>
+                        </div>
+                   </div>
+                 </div>
+            </section>
+        </main>
+    </div>
+
+
+    <script>
+
+    </script>
+</body>
+</html>
